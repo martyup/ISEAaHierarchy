@@ -246,7 +246,7 @@ public abstract class LeverIHavet implements IAktiv {
 	public boolean erSulten() {
 
 		if (vekt < normalVekt / 2) {
-			//System.out.println(this.hentNavn() + " sulten");
+			System.out.println(this.hentNavn() + " sulten");
 			return true;
 		} else {
 			System.out.println(this.hentNavn() + " ikke sulten");
